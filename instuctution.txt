@@ -6,6 +6,9 @@ STEP-2 : install angular cli in the frond end part to initialise the angular app
 
 STEP-3 : create the angular app by the command ng new loansUI
 
-STEP-4 : verify the app is running or not 
+STEP-4 : verify the app is running or not by running the command ng serve
 
-STEP-5 : 
+STEP-5 : install bootstrap frame work and jquery in angular and add them in the angular.json in both script and
+script section 
+
+STEP-6 : 
