@@ -11,4 +11,6 @@ STEP-4 : verify the app is running or not by running the command ng serve
 STEP-5 : install bootstrap frame work and jquery in angular and add them in the angular.json in both script and
 script section 
 
-STEP-6 : 
+STEP-6 : Install the express generetor refer to the express doc
+
+STEP-7 : verify the api is working or not
