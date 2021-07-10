@@ -1,0 +1,11 @@
+THESE ARE THE STEPS WE FOLLOW TO CREATE THE APP
+
+STEP-1 : create separate repos/folder for front end and backend like loanUI and loan api
+
+STEP-2 : install angular cli in the frond end part to initialise the angular app command
+
+STEP-3 : create the angular app by the command ng new loansUI
+
+STEP-4 : verify the app is running or not 
+
+STEP-5 : 
