@@ -14,3 +14,12 @@ script section
 STEP-6 : Install the express generetor refer to the express doc
 
 STEP-7 : verify the api is working or not
+
+//Then it's time for to set-up the DATABASE (we are using mongodb here)
+
+STEP-8 : create a new database using mongodb compass and name it LoanManager inside the Loan-api
+
+STEP-9 : create a models folder and create different schema of ur collections , export the models
+
+STEP-10: install the mongoose librery inside the Loan-api to connect the DATABASE with node.js
+
