@@ -1,0 +1,74 @@
+.shift {
+   
+    /* background-color:lightgreen; */
+    width: 450px;
+  
+    margin-left: 35px;
+}
+    h1 {
+    margin: 0 0 20px;
+    font-weight: 400;
+    color: #1c87c9;
+    }
+    h3 {
+    margin: 0 0 5px;
+    color: #1c87c9;
+    }
+ 
+   
+    .fas {
+    margin: 25px 10px 0;
+    font-size: 72px;
+    /* color: #fff; */
+    }
+    .fa-envelope {
+    transform: rotate(-20deg);
+    }
+    .fa-at , .fa-mail-bulk{
+    transform: rotate(10deg);
+    }
+    input, textarea {
+    width: 450px;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #1c87c9;
+    outline: none;
+    border-radius: 0.25rem;
+    }
+    input::placeholder {
+    color: #666;
+    }
+    button {
+   
+    padding: 10px;
+    border: none;
+    background: #1c87c9; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 0.25rem;
+    }
+    button:hover {
+    background: #2371a0;
+    }    
+    @media (min-width: 568px) {
+    .main-block {
+    flex-direction: row;
+    }
+    .left-part, form {
+    width: 50%;
+    }
+    .fa-envelope {
+    margin-top: 0;
+    margin-left: 20%;
+    }
+    .fa-at {
+    margin-top: -10%;
+    margin-left: 65%;
+    }
+    .fa-mail-bulk {
+    margin-top: 2%;
+    margin-left: 28%;
+    }
+}
+

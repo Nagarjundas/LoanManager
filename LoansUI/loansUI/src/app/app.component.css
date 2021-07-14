@@ -10,5 +10,10 @@
     color: black;
     height: 200px;
     width: 50%;
-    background-color: rgb(85, 179, 233);
+    background-color: rgb(237, 11, 245);
   }
+
+ .active{
+   color:black;
+   text-decoration: underline;
+ }

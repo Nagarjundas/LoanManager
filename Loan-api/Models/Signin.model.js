@@ -1,10 +1,11 @@
 const SignIn = mongoose.Schema({
     firstName: String,
     lastName: String,
-    emailId: String,
-    passWord: String,
     dob: String,
-    phoneeNo: String
+    emailId: String,
+    passWord: String, 
+    phoneeNo: String,
+    Address: String
 });
 
 const signInModel = mongoose.model('signin', SignIn);

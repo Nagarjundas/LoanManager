@@ -19,7 +19,27 @@ STEP-7 : verify the api is working or not
 
 STEP-8 : create a new database using mongodb compass and name it LoanManager inside the Loan-api
 
-STEP-9 : create a models folder and create different schema of ur collections , export the models
+STEP-9 : install the mongoose librery inside the Loan-api to connect the DATABASE with node.js
 
-STEP-10: install the mongoose librery inside the Loan-api to connect the DATABASE with node.js
+STEP-10 : create a models folder and create different schema of ur collections , export the models
+
+STEP-11 : Then import all the models in the there respective router.js [const loginModels = require('../Models/UsersLogin.model')]
+
+STEP-12 : import all the routes to the app.js file [var loginRouter = require('./routes/login');]
+ 
+//Then we came to the front end 
+
+STEP-13 : Then we create the two module signIn and logIn modules by this command [ng g module logIn --route logIn --module app.module].it 
+will create module and automatically lazy-loaded
+
+STEP-14 : create some components with out lazyloading to load the components at the begining
+
+STEP-15 :Then add routing in the html element by the help of angular route [<a class="nav-link" routerLinkActive="active" [routerLink]="'logIn'">LogIn</a>]
+or with the help of href="logIn"
+
+//again back to backend
+
+STEP-16: we install the mongoose librery in the background and connecting to our database(LoansManager)
+
+
 
