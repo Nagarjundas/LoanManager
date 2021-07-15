@@ -41,5 +41,15 @@ or with the help of href="logIn"
 
 STEP-16: we install the mongoose librery in the background and connecting to our database(LoansManager)
 
+STEP-17: add different methods to the router.js file  like post ,get , put etc and always remember an api can not give multiple respone for that
+use a combination of  res.setHeader('Content-Type', 'text/html') , response.write() and response.close(). We used response.write() to send more than one response, and then used response.end()
+to manually end the response process and close the HTTP connection.   e.g : index.js
+
+STEP-18: see the logic of different methods in the examples
+
+STEP-19: 
+
+
+
 
 

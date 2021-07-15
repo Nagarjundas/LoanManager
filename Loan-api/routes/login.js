@@ -4,8 +4,10 @@ var router = express.Router();
 const loginModels = require('../Models/UsersLogin.model')
 
 /* GET users listing. */
-router.get('/login', function(req, res, next) {
-  res.send('respond with a resource');
+router.get('/get', function (req, res) {
+  res.send('Got a add request  naga')
 });
+
+
 
 module.exports = router;

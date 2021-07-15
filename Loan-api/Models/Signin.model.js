@@ -1,3 +1,5 @@
+const mongoose = require('mongoose');
+
 const SignIn = mongoose.Schema({
     firstName: String,
     lastName: String,

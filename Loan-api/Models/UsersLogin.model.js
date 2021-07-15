@@ -1,3 +1,5 @@
+const mongoose = require('mongoose');
+
 const UsersLogin = mongoose.Schema({
     emailId: String,
     passWord: String,

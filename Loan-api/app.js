@@ -6,10 +6,10 @@ var logger = require('morgan');
 
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:LoansManager');
+mongoose.connect('mongodb://localhost/LoansManager');
 
 var indexRouter = require('./routes/index');
-var signinRouter = require('./routes/siginin');
+var signinRouter = require('./routes/signin');
 var loginRouter = require('./routes/login');
 
 var app = express();
@@ -25,10 +25,11 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/signin', signinRouter);
+app.use('/login', loginRouter);
 
 // catch 404 and forward to error handler
-app.use(function (req, res, next) {
+app.use(function (req, res, next) {ar
   next(createError(404));
 });
 
